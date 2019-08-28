@@ -1,0 +1,83 @@
+// My VSCode Settings
+{
+    "editor.parameterHints.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.fontFamily": "'FiraCode-Retina', 'Operator Mono SSm', 'Victor Mono'",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "terminal.external.osxExec": "Hyper.app",
+    "emmet.triggerExpansionOnTab": true,
+    "git.showPushSuccessNotification": true,
+    "html.format.indentInnerHtml": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.lineHeight": 30,
+    "editor.fontSize": 14,
+    "php-cs-fixer.onsave": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.config": "~/.vscode/.php_cs;.php_cs.dist",
+    "workbench.fontAliasing": "auto",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "material-icon-theme.folders.color": "#8ccbea",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "vetur.format.options.tabSize": 4,
+    "terminal.integrated.lineHeight": 1.2,
+    "workbench.tree.indent": 12,
+    "editor.snippetSuggestions": "top",
+    "vetur.format.options.useTabs": true,
+    "explorer.confirmDelete": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "window.openFoldersInNewWindow": "off",
+	"editor.wordWrap": "on",
+    "editor.formatOnType": true,
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "name": {
+                "underline": "#ea148c"
+            }
+        }
+    },
+    "sync.gist": "87898fcfc7105c8575d4cc14d763046d",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#1d1d1d",
+        "editor.background": "#1d1d1d",
+        "editorGutter.background": "#1d1d1d",
+        "tab.activeBackground": "#1D1D1D",
+        "editorGroup.emptyBackground": "#1D1D1D",
+        "tab.activeBorder": "#FF4081",
+        "tab.activeModifiedBorder": "#ffffff00",
+        "tab.inactiveModifiedBorder": "#ffffff00",
+        "editor.selectionHighlightBorder": "#FF408150",
+    },
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.activityBar.visible": false,
+    "breadcrumbs.symbolPath": "off",
+    "workbench.colorTheme": "Framer Syntax 2",
+    "tailwindCSS.emmetCompletions": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": true,
+    "scss.lint.boxModel": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.float": "warning",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.hover.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.hover.sticky": false,
+    "editor.insertSpaces": false,
+    "editor.letterSpacing": 0.4,
+    "editor.overviewRulerBorder": false
+}
