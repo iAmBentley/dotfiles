@@ -1,0 +1,77 @@
+# SYSTEM
+alias home="cd ~"
+alias dev="cd ~/Code"
+alias c="clear"
+alias shortcuts="code ~/.aliases"
+alias hosts="code /etc/hosts"
+alias bye="exit"
+alias list="ls -la"
+alias delete="sudo rm -rf"
+
+# SOFTWARE SPECIFIC
+alias zshconfig="sudo code ~/.zshrc"
+alias vsconfig="code ~/Library/Application\ Support/Code/User/settings.json"
+alias settings="code ~/.hyper.js"
+alias o="code ."
+alias subl="open -a Sublime\ Text"
+alias chrome="open -a Google\ Chrome "
+
+# SHOW / HIDE HIDDEN FILES + FOLDERS IN FINDER
+# BUILT IN TOGGLE WITH CMD + SHIFT + [period]
+alias show="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
+alias hide="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
+
+# GIT / GITHUB
+alias gi="git init"
+alias gs="git status"
+alias ga="git add"
+alias gaa="git add ."
+alias gc="git commit -m"
+alias gh="open -a Google\ Chrome 'https://www.github.com'"
+alias gpd="git pull"
+alias gpu="git push origin"
+alias deploy="git push production master"
+alias gl="git log --oneline"
+alias glg="git log --oneline --graph"
+alias go="git checkout"
+alias newbranch="git checkout -b"
+alias deletebranch="git branch -d"
+alias forcedeletebranch="git branch -D"
+alias branches="git branch"
+alias nah="git reset --hard;git clean -df"
+alias stash="git stash"
+alias unstash="git stash apply"
+
+# CURRENT PROJECTS
+alias sites="cd ~/Sites"
+alias abs="cd ~/Sites/abs"
+alias kb="cd ~/Sites/jsdocs"
+alias mc="cd ~/Sites/moticorp"
+alias geek="cd ~/Sites/geek"
+
+# HOMESTEAD
+alias hs="cd ~/Homestead"
+alias vu="vagrant up"
+alias vs="vagrant ssh"
+alias vus="vagrant up && vagrant ssh"
+alias vreload="vagrant reload --provision"
+alias vhalt="vagrant halt"
+alias vdestroy="vagrant destroy"
+alias yaml="code ~/Homestead/Homestead.yaml"
+
+# LARAVEL
+alias migrateseed="php artisan migrate:fresh --seed"
+alias newmigration="php artisan make:migration"
+alias newmmc="php artisan make:model -mcr"
+alias newmodel="php artisan make:model"
+alias newcontroller-r="php artisan make:controller -r"
+alias newcontroller="php artisan make:controller"
+alias newseeder="php artisan make:seeder"
+alias newrequest="php artisan make:request"
+
+# NPM
+alias rundev="npm run dev"
+alias watch="npm run watch"
+
+# COMPOSER
+alias cdump="composer dump-autoload"
